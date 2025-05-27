@@ -10,7 +10,7 @@ const Header = ({ headerLoading }: { headerLoading: boolean }) => {
     <div className="bg-blue-800 py-6">
       <div className="container mx-auto flex flex-col items-center justify-center gap-4 md:flex-row md:justify-between flex-wrap">
         <span className="text-3xl text-white font-bold tracking-tight">
-          <Link to="/">Mernholidays.com</Link>
+          <Link to="/">MernHolidays.com</Link>
         </span>
         <span className="flex space-x-2">
           {headerLoading ? (
